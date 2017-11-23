@@ -69,5 +69,9 @@ G´ = Y – 0.395U – 0.581V
 B´ = Y + 2.032U
 
 
+1. scipy.sparse.linalg.spsolve
+to solve equation Ax = b, where A is a sparse matrix
 
+2. csr_matrix((data, (row_ind, col_ind)), [shape=(M, N)])
+where data, row_ind and col_ind satisfy the relationship a[row_ind[k], col_ind[k]] = data[k]
 
